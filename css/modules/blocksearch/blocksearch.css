@@ -4,13 +4,13 @@
     float: left;
     width: 100%; }
   #search_block_top .btn.button-search {
-    background: #333;
+    background: #6B387D;
     display: block;
     position: absolute;
     top: 0;
     right: 0;
     border: none;
-    color: #fff;
+    color: #F9EEFE;
     width: 50px;
     text-align: center;
     padding: 10px 0 11px 0; }
