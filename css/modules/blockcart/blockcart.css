@@ -40,7 +40,7 @@
         display: none !important; } }
     .shopping_cart > a:first-child b {
       color: #F9EEFE;
-      font: 600 18px/22px "Open Sans", sans-serif;
+      font: 600 18px/22px FiraSans, sans-serif;
       padding-right: 5px; }
     .shopping_cart > a:first-child:before {
       content: "\f07a";
@@ -390,7 +390,7 @@
   padding: 26px 30px 40px 30px;
   position: relative; }
 #layer_cart .crossseling h2 {
-  font: 400 23px/26px Arial, Helvetica, sans-serif;
+  font: 400 23px/26px FiraSans, sans-serif;
   color: #333;
   margin-bottom: 25px; }
 #layer_cart .crossseling #blockcart_list {
