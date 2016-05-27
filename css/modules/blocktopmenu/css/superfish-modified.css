@@ -58,7 +58,7 @@
         .sf-menu > li span.active:after {
           content: "\f068"; } }
   .sf-menu > li > a {
-    font: 600 18px/22px "Open Sans", sans-serif;
+    font: 600 18px/22px ShortStack, sans-serif;
     text-transform: uppercase;
     color: #6B387D;
     display: block;
@@ -140,7 +140,7 @@ ul.sf-menu li li li.sfHover ul {
   width: 100%; }
   .sf-menu > li > ul > li > a {
     text-transform: uppercase;
-    font: 600 16px/20px "Open Sans", sans-serif;
+    font: 600 16px/20px FiraSans, sans-serif;
     color: #C62CFE; }
     .sf-menu > li > ul > li > a:hover {
       color: #6B387D; }

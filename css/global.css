@@ -19,6 +19,19 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
+@font-face {
+font-family: 'ShortStack';
+src: url('../fonts/ShortStack-Regular.otf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'FiraSans';
+src: url('../fonts/FiraSans-Regular.otf');
+font-weight: normal;
+font-style: normal;
+}
+
 html {
   line-height: 1; }
 
@@ -234,7 +247,8 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: FiraSans;
   font-size: 13px;
   line-height: 1.42857;
   color: #777777;
@@ -354,7 +368,8 @@ cite {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: ShortStack;
   font-weight: 500;
   line-height: 1.1; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
@@ -3895,6 +3910,7 @@ td.visible-print {
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 .icon, [class^="icon-"] {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -6471,7 +6487,7 @@ table.table_block td {
       #home-page-tabs > li {
         width: 100%; } }
     #home-page-tabs > li a {
-      font: 600 21px/24px "Open Sans", sans-serif;
+      font: 600 21px/24px ShortStack, sans-serif;
       color: #6B387D;
       text-transform: uppercase;
       border: none;
