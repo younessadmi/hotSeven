@@ -5720,7 +5720,7 @@ textarea {
   z-index: 5003; }
 
 .columns-container {
-  background: #fff; }
+  background: #F9EEFE; }
 
 #columns {
   position: relative;
@@ -5734,7 +5734,7 @@ textarea {
 header {
   z-index: 1;
   position: relative;
-  background: #fff;
+  background: #F9EEFE;
   padding-bottom: 15px; }
   header .banner {
     background: black;
