@@ -1,4 +1,5 @@
 .shop-phone {
+    display: none;
   float: left;
   padding: 5px 0 10px;
   line-height: 18px; }
@@ -18,13 +19,14 @@
 
 #contact-link {
   float: right;
-  border-left: 1px solid #515151; }
+  border-left: 1px solid #C6BECB; 
+  border-right: 1px solid #C6BECB; }
   @media (max-width: 479px) {
     #contact-link {
       text-align: center; } }
   #contact-link a {
     display: block;
-    color: #fff;
+    color: #F9EEFE;
     font-weight: bold;
     padding: 8px 10px 11px 10px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
@@ -36,7 +38,7 @@
         padding-left: 5px;
         padding-right: 5px; } }
     #contact-link a:hover, #contact-link a.active {
-      background: #2b2b2b; }
+      background: #C62CFE; }
   @media (max-width: 767px) {
     #contact-link.is_logged {
       display: none; } }
