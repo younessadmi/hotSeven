@@ -25,6 +25,10 @@
 //global variables
 var responsiveflag = false;
 
+function checkScrollPosition() {
+    $(window).scrollTop() > 100 ? $('#block_top_menu').removeClass('show-height').addClass('hidden-height') : $('#block_top_menu').removeClass('hidden-height').addClass('show-height');
+};
+
 $(document).ready(function(){
 	highdpiInit();
 	responsiveResize();
@@ -109,6 +113,9 @@ $(document).ready(function(){
 		if (e.offsetX >= 16 && e.offsetX <= 39 && e.offsetY >= 16 && e.offsetY <= 34)
 			$(this).fadeOut();
 	});
+	
+	$(window).scroll(checkScrollPosition); // check on scroll
+    checkScrollPosition(); // check on load
 });
 
 function highdpiInit()
